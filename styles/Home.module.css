@@ -6,6 +6,9 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  z-index: 1;
+
+  backdrop-filter: blur(5px);
 }
 
 .main {
@@ -129,12 +132,18 @@
   border-radius: 15px;
   padding: 25px;
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  position: relative;
+ 
+  
 }
 
 .img{
   width: 120px;
   margin: 18px 30%;
 }
+
+
 .detect{
   background: #1da1f2;
   color: #fff;
@@ -156,5 +165,48 @@
 
 .detect.no-ab{
   background: #1da1f2;
+}
+
+
+
+
+
+
+
+
+
+.ad {
+  text-align: center;
+  background:  #FFF;
+  padding-top: 2rem;
+  max-width: 100% ;
+  overflow: hidden
+}
+
+/* ---------------------- */
+
+.modalfader {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 99998;
+  background: rgba(0,0,0,0.8);
+}
+
+.modalwindow {
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 99999;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: sans-serif;
 }
 
