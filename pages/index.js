@@ -56,7 +56,7 @@ export default function Home() {
 
 
 
-      <main className={styles.main}>
+      <main className={ adBlockDetected ? styles.main : styles.mainScroll}>
         <h1>Welcome To the APp</h1>
         <h1>Welcome To the APp</h1>
         <h1>Welcome To the APp</h1>
@@ -100,28 +100,9 @@ export default function Home() {
         <h1>Welcome To the APp</h1>
         <h1>Welcome To the APp</h1>
         <h1>Welcome To the APp</h1>
+     
         <h1>Welcome To the APp</h1>
-        <h1>Welcome To the APp</h1>
-        <h1>Welcome To the APp</h1>
-        <h1>Welcome To the APp</h1>
-        <h1>Welcome To the APp</h1>
-        <h1>Welcome To the APp</h1>
-        <h1>Welcome To the APp</h1>
-        <h1>Welcome To the APp</h1>
-        <h1>Welcome To the APp</h1>
-        <h1>Welcome To the APp</h1>
-        <h1>Welcome To the APp</h1>
-        <h1>Welcome To the APp</h1>
-        <h1>Welcome To the APp</h1>
-        <h1>Welcome To the APp</h1>
-        <h1>Welcome To the APp</h1>
-        <h1>Welcome To the APp</h1>
-        <h1>Welcome To the APp</h1>
-        <h1>Welcome To the APp</h1>
-        <h1>Welcome To the APp</h1>
-        <h1>Welcome To the APp</h1>
-        <h1>Welcome To the APp</h1>
-        <h1>Welcome To the APp</h1>
+      
 
 
       </main>
