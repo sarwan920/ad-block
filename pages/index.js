@@ -1,11 +1,11 @@
 import Head from 'next/head'
-import Image from 'next/image'
+// import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 import { useState } from 'react'
 
 
-import { useDetectAdBlock, AdBlockDetectedWrapper } from 'adblock-detect-react'
+import { useDetectAdBlock } from 'adblock-detect-react'
 
 export default function Home() {
 
@@ -139,7 +139,7 @@ export default function Home() {
         <h1>Welcome To the APp</h1>
         <h1>Welcome To the APp</h1>
         <h1>Welcome To the APp</h1>
-        
+
 
       </main>
 
